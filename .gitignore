@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+
+# Pycache
+__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Build artifacts / distribution
+build/
+*.egg-info/
+
+# OS generated files
+.DS_Store
+Thumbs.db
