@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.2.4",
+      "reason": "Old release; update to a modern stable series that supports current Python versions and downstream dependencies."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.2.3",
+      "reason": "Pandas 1.5.x is out of date and may lack compatibility with newer Python; update to a maintained 2.x release."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.8.1",
+      "reason": "Old version; update for bug fixes and Python compatibility."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Contains known security fixes in later releases."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0",
+      "reason": "Several CVE reports and safer loader behavior in newer versions."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.11.3",
+      "reason": "Update to a currently maintained release that supports modern NumPy."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2024.11.13",
+      "reason": "Old release; update to include bug and performance fixes."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.1",
+      "reason": "Old version; update for stability and compatibility."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Security fixes and Python compatibility in newer releases."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Old; update to support newer typing features and Python versions."
+    },
+    {
+      "id": 11,
+      "package": "installation",
+      "original_version": "",
+      "updated_version": "",
+      "reason": "Initially, compiled packages required building on Python 3.14; after pinning numpy to a wheel-backed release and selecting compatible versions, full environment successfully installed in .venv/ and tests passed. For reproducible builds across platforms, use conda/miniforge or a compatible Python version (3.11/3.12)."
+    }
+  ]
+}
