@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Use a wheel-supported NumPy release for Python 3.14 so environment installation completes reliably (2.3.5)."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.2.3",
+      "reason": "Old pandas is incompatible with newer numpy and lacks recent fixes; pin a modern stable 2.x release."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.7.2",
+      "reason": "Update to a maintained release with bug fixes and improved Python support."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Older versions have known security vulnerabilities; use a recent secure release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "5.x contains known CVEs and older APIs; upgrade to a recent 6.x (6.0.3) which has security fixes and binary wheels."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.11.4",
+      "reason": "Bring SciPy up to a supported release compatible with the chosen numpy and Python 3.14 (1.11.4 wheel available)."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2024.11.1",
+      "reason": "Very old release; update to a recent maintained version with bug fixes."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.1",
+      "reason": "Old version may miss improvements and fixes; pin a modern stable version."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "4.9.3",
+      "reason": "Update to a version with important security and portability fixes."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.8.0",
+      "reason": "Old backport; pick a newer one that supports modern typing features and Python 3.14."
+    }
+  ]
+}
