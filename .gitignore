@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*~
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Backup files
+*_backup.txt
+requirements_old.txt

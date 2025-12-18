@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Updated to latest stable 2.3.5 with Python 3.14 support and improved performance. Version 1.24.0 is outdated and may have security vulnerabilities."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Updated to latest stable 2.3.3 with Python 3.14 support and numerous bug fixes. Version 1.5.0 is outdated and lacks Python 3.14 support."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.8",
+      "reason": "Updated to latest stable 3.10.8 with Python 3.14 support and enhanced rendering capabilities. Version 3.5.0 is outdated."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.5",
+      "reason": "Updated to latest stable 2.32.5 to address multiple known security vulnerabilities. Version 2.25.0 has several reported CVEs including connection pooling and SSL issues."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Updated to latest stable 6.0.3 with critical security fixes for YAML parsing. Version 5.3.1 has known arbitrary code execution vulnerabilities (CVE-2020-14343, CVE-2020-1747)."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Updated to latest stable 1.16.3 with Python 3.14 support and numerous performance improvements. Version 1.9.0 is outdated and lacks Python 3.14 wheel support."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Updated to latest stable 2025.11.3 with multiple regex engine improvements and security fixes. Version 2021.4.4 is severely outdated (4 years old)."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Updated to latest stable 4.67.1 with performance improvements and bug fixes. Version 4.32.0 is outdated and may have compatibility issues."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Updated to latest stable 6.0.2 with Python 3.14 support and critical security improvements. Version 4.6.1 has known security vulnerabilities (CVE-2021-43818, CVE-2021-28957)."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Updated to latest stable 4.15.0 for modern Python type hinting support and Python 3.14 compatibility. Version 3.7.4 is severely outdated (incompatible with Python 3.14)."
+    }
+  ]
+}
