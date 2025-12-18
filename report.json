@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.0.0",
+      "reason": "Updated for Python 3.14 compatibility and latest stable version."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.2.2",
+      "reason": "Updated to latest stable version with bug fixes and performance improvements."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.8.4",
+      "reason": "Updated to latest stable version with new features and bug fixes."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.3",
+      "reason": "Older version contains known security vulnerabilities."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.1",
+      "reason": "Older version contains known security vulnerabilities."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.13.1",
+      "reason": "Updated to latest stable version with new features and bug fixes."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2023.12.25",
+      "reason": "Updated to latest stable version with performance improvements."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.4",
+      "reason": "Updated to latest stable version with new features."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "5.1.1",
+      "reason": "Older version contains known security vulnerabilities."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.12.2",
+      "reason": "Updated to latest stable version for better type support."
+    }
+  ]
+}
